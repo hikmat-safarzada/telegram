@@ -5,4 +5,4 @@ app.use(express.json())
 app.use("/api/categories", categoryRouter)
 
 
-module.exports = categoryRouter;
+module.exports = app;
